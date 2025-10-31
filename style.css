@@ -1,0 +1,192 @@
+body{
+    background-color: #3c3c3c;
+    color: #fff;
+    transition: .1s;
+}
+h1, p{
+    cursor: default;
+}
+#fazer-login{
+    font-size: 12.5px;
+}
+#fazer-cadastro{
+    font-size: 12.5px;
+}
+.centro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    margin-top: 65px;
+}
+.centroCadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+}
+.card{
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 250px;
+    border:  2px solid black;
+    border-radius: 15px;
+    background-color: #2f2f2f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: .1s;
+}
+.informaçao{
+    text-align: center;
+    border-radius: 50px;
+    margin: 5px;
+    border: 1px solid black;
+    font-size: 15px;
+    background-color: #3c3c3c;
+    color: #fff;
+    transition: .1s;
+}
+.informaçao::placeholder{
+    color: #fff;
+    transition: .1s;
+}
+.Entrar{
+    text-align: center;
+    width: 50%;
+    border-radius: 50px;
+    margin: 5px;
+    border: 1px solid black;
+    color: #fff;
+    background-color: #3f3f3f;
+    cursor: pointer;
+    transition: .1s;
+}
+.EntrarCadastro{
+    text-align: center;
+    width: 65%;
+    border-radius: 50px;
+    margin: 5px;
+    border: 1px solid black;
+    color: #fff;
+    background-color: #3f3f3f;
+    cursor: pointer;
+    transition: .1s;
+}
+.informaçao:hover{
+    background-color: #5f5f5f;
+}
+.Entrar:hover{
+    background-color: #5f5f5f;
+}
+.Entrar:active{
+    width: 40%;
+}
+.EntrarCadastro:hover{
+    background-color: #5f5f5f;
+}
+.EntrarCadastro:active{
+    width: 55%;
+}
+/* cadastro */
+
+.cadastro{
+    margin-top: -37px;
+    width: 200px;
+}
+#NCFL{
+    font-size: 9px;
+}
+#cadastro{
+    color: #fff;
+    text-decoration: none;
+    font-size: 9px;
+    transition: .1s;
+}
+/* login */
+.login{
+    width: 200px;
+    margin-top: 87px;
+}
+#JTUC{
+    font-size: 9px;
+}
+#login{
+    color: #fff;
+    text-decoration: none;
+    font-size: 9px;
+    transition: .1s;
+}
+
+/* dark mode */
+.mudarCor{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.darkMode{
+    font-size: 10px;
+}
+.fundo{
+    height: 15px;
+    width: 25px;
+    background-color: #2b2b2b;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    transition: .1s;
+}
+.bolinha{
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: #006e32;
+    transform: scale(0.9);
+    position: absolute;
+    left: 0;
+    transition: .1s;
+}
+
+.fundo.dark{
+    background-color: #c3c3c3;
+}
+
+.fundo.dark .bolinha{
+    left: 10px;
+    background-color: #910000;
+    transition: .1s;
+}
+.card.dark{
+    background-color: #a4a4a4;
+    transition: .1s;
+}
+.card.dark .informaçao{
+    color: #000000;
+    background-color: #c4c4c4;
+    transition: .1s;
+}
+.card.dark .informaçao::placeholder{
+    color: #000000;
+    background-color: #c4c4c4;
+    transition: .1s;
+}
+.card.dark .Entrar{
+    background-color: #c4c4c4;
+    color: #000000;
+    transition: .1s;
+}
+.card.dark #cadastro{
+    color: #000000;
+}
+.card.dark #login{
+    color: #000000;
+}
+body.dark{
+    background-color: #e4e4e4;
+    color: #000000;
+    transition: .1s;
+}
